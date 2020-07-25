@@ -1,0 +1,81 @@
+
+  .footer{
+  
+    background-repeat: no-repeat;
+    padding-top: 100px;
+  }
+  p{
+      font-size: 20px;
+      color: #fff;
+}
+.Haoandon{
+    text-align: center;
+    color: #99bbff;
+    font-size: 35px;
+}
+#Baoandon{
+  font-size: 21px;
+  color: #b3b3ff;
+}
+ul{
+  font-size: 20px;
+      color: #fff;
+}
+ol{ font-size: 20px;
+  color: #fff;}
+  #imgskill{
+    float: left;
+    clear: right; 
+  }
+  #lvskill{
+    margin-left: 150px;
+  }
+  #cardimg{
+    width: 130px;
+    height: 130px;
+  }
+  #Hren{
+    text-align: center;
+    color: #6666ff;
+    font-size: 35px;
+  }
+  #Bren{
+    font-size: 21px;
+    color: #99ffff;
+  }
+  #HO{
+    text-align: center;
+    color: #33ff77;
+    font-size: 35px;
+  }
+  #BO{
+    font-size: 21px;
+    color: #89ddb3;
+  }
+  #HD{
+    text-align: center;
+    color: #ff33ff;
+    font-size: 35px;
+  }
+  #BD{
+    font-size: 21px;
+    color: #e679c5;
+  }
+  #HN{
+    text-align: center;
+    color: #66e0ff;
+    font-size: 35px;
+  }
+  #BN{
+    font-size: 21px;
+    color: #b3d9ff;
+  }
+  #HT{
+    text-align: center;
+    color:#ffc6b3;
+    font-size: 35px;
+  }
+  #BT{
+    font-size: 21px;
+    color: #b3ffff;
+  }

@@ -1,0 +1,65 @@
+#main #container{
+width: 1140px;
+float: left;
+min-height: 400px;
+}
+#main #right{
+width: 270px;
+float: right;
+min-height: 400px;
+clear: right;
+margin-top: -1085px;
+padding-right: 13px;
+}
+.article-table{
+border-collapse: collapse;
+border: 2px white;
+margin: 1em 1em 1em 0;
+}
+.home-top-right-ads {
+float: right;
+}
+#card-images { 
+padding-top: 25px;
+}
+.card-link{
+text-align: center;
+}
+#pagination{
+margin:30px 0;
+color: black;
+padding-left: 256px;
+background-color: transparent;
+}
+#pagination > li >a{
+  background-color: transparent;
+  color: white;
+}
+#pagination > li > a:hover,
+#pagination > li > a:focus,
+#pagination > li > a:active
+{
+  color: #5a5a5a;
+  background-color: #eee;
+}
+.card-header{
+  display: grid;
+}
+table>tbody>tr>td>#accordion{
+  transition: ease-in-out;
+-o-transition: ease-in-out .3s;
+-webkit-transition: ease-in-out .3s;
+transition: ease-in-out .3s;
+}
+table>tbody>tr>td>#accordion:hover{
+  display: grid;
+}
+#card-infor{
+  background-color: black;
+  margin-left: 33px;
+  height: 37px;
+  text-align: center;
+  width: 43px;
+  padding: 3; 
+  border: 1px solid white;
+}

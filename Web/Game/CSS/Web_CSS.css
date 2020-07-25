@@ -1,0 +1,214 @@
+#thongtingame{
+  float: left;
+  color: white;
+  padding: 22px 189 0px 189px;
+}
+#news-video-event{
+  color: black;
+  padding: 0px 189 0px 189px;
+}
+#shiki{
+  float: left;
+  color: white;
+  padding: 0px 189px 0px 189px;
+}
+#main1{
+padding: 0px 20px 0px 20px;
+}
+#main2{
+  padding-left: 0px;
+}
+.border-class{
+  border:1px solid white;
+  padding: 0px 20px 0px 20px;
+}
+#thongtingame, #news-video-event, #shiki{
+  float: left;
+}
+#news-tab, #video-tab, #event-tab{
+  color: white;
+}
+#news-tab:active{
+color: black;
+background-color: black;
+}
+#news-tab:hover{
+  color: white;
+}
+#news-tab:link{
+  background-color: black;
+}
+#video-tab:active{
+color: black;
+background-color: white;
+}
+#video-tab:hover{
+  color: white;
+}
+#video-tab:link{
+  background-color: black;
+}
+#event-tab:active{
+color: black;
+background-color: white;
+}
+#event-tab:hover{
+  color: white;
+}
+#event-tab:link{
+  background-color: black;
+}
+#event-tab:visited{
+  color: black;
+}
+#videoCG{
+  float: left;
+  padding-left: 264;
+  padding-right: 265;
+}
+#text {
+color: #fff;
+position: absolute;
+top: 10px;
+padding-top: 120px;
+padding-left: 20px;
+}
+#text-a{
+  overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    word-break: break-all;
+    word-break: normal;
+}
+#announce{
+  color: gray;
+  margin-top: -16px;
+  float: right;
+}
+#announce:hover{
+text-decoration: none;
+color: red;
+}
+#card{
+  color: white;
+  background-color: transparent	;
+  border: 1px solid white;
+}
+/* FontAwesome for working BootSnippet :> */
+
+#team {
+    background: #eee !important;
+}
+.row{
+  padding-top: 13px;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {/*Đây là những tiền tố được cung cấp bởi các engine render khác nhau*/
+    -webkit-transform: rotateY(0deg);/*webkit cho chrome hay safari*/
+    -moz-transform: rotateY(0deg);/*moz cho firefox*/
+    -o-transform: rotateY(0deg);/*o cho Opera*/
+    -ms-transform: rotateY(0deg);/*ms cho Internet Explore*/
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    /* -moz-transform: perspective(1000px);*/
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    /*-webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);*/
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside, .backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card, .backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: wheat !important;
+}
+.frontside .card .card-title, .backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#icon-top{
+  font-size:36px; 
+  color: white; 
+  padding-left: 500px;
+  padding-top: 100;
+}
+
+#icon{
+  font-size:36px; 
+  color: white; 
+  padding-left: 20px;
+  padding-top: 100;
+}
+.footer{
+  background-repeat: no-repeat;
+  padding-top: 1000px;
+}
+

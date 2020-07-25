@@ -1,0 +1,103 @@
+h1{
+  padding-top: 110px;
+  text-align: center;
+  color: white;
+}
+#mantaice{
+color: white;
+padding: 22px 189px 0px 189px;
+}
+p{
+    color: adb5bd;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    word-break: break-all;
+    word-break: normal;
+    padding-bottom: 40px;
+}
+#man1:hover {
+padding-left: 30px;
+}
+
+#top{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+#man1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: ease-in-out;
+  text-decoration: none;
+  margin-left: 70.5px;
+  margin-right: 85px;
+  -o-transition: ease-in-out .3s;
+  -webkit-transition: ease-in-out .3s;
+  transition: ease-in-out .3s;
+}
+#mid{
+    border-top: none;
+    border-bottom: 1px solid white;
+}
+h4{
+  color: white;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  word-break: break-all;
+  word-break: normal;
+}
+
+.container{
+  color: rgb(240, 228, 228);
+  font-size: 20px;
+  padding: 20px 50px;
+  display: block;
+}
+.img{
+	width:300px;
+	height:300px
+}
+.img1{
+	width: 200px;
+	height: 200px;
+}
+#p-text{
+  display: inline;
+  color: white;
+}
+.to-top{
+  bottom: 55px;
+  right: 18px;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,.05);
+  transition: border .3s ease-in-out;
+  display: none;
+  position: fixed;
+  bottom: 1.6em;
+  right: 1.6em;
+}
+.page-item{
+  background-color: black;
+}
+.pagination > li > a
+{
+    background-color: white;
+    color: #5A4181;
+}
+
+#main, #right{
+  float: left;
+}
+table{
+  width: 20px;
+}

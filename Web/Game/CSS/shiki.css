@@ -1,0 +1,81 @@
+
+  .footer{
+  
+    background-repeat: no-repeat;
+    padding-top: 100px;
+  }
+  p{
+      font-size: 20px;
+      color: #fff;
+}
+.Haoandon{
+    text-align: center;
+    color: #99bbff;
+    font-size: 35px;
+}
+#Baoandon{
+  font-size: 21px;
+  color: #b3b3ff;
+}
+ul{
+  font-size: 20px;
+      color: #fff;
+}
+ol{ font-size: 20px;
+  color: #fff;}
+  #imgskill{
+    float: left;
+    clear: right; 
+  }
+  #lvskill{
+    margin-left: 150px;
+  }
+  #cardimg{
+    width: 130px;
+    height: 130px;
+  }
+  #Hibaraki{
+    text-align: center;
+    color: #ff4d4f;
+    font-size: 35px;
+  }
+  #Bibaraki{
+    font-size: 21px;
+    color: #ff8082;
+ }
+ #Hshuten{
+  text-align: center;
+  color: #ff4d4d;
+  font-size: 35px;
+}
+#Bshuten{
+  font-size: 21px;
+  color: #ff8080;
+}
+  #Hkachou{
+    text-align: center;
+    color: #ffff66;
+    font-size: 35px;
+  }
+  #Bkachou{
+    font-size: 21px;
+    color: #ff80bf;
+  }
+  #Hhannya{
+    text-align: center;
+    color: #d580ff;
+    font-size: 35px;
+  }
+  #Bhannya{
+    font-size: 21px;
+    color: #ff80bf;
+  }
+  #Hren{
+    text-align: center;
+    color: #6666ff;
+    font-size: 35px;
+  }
+  #Bren{
+    font-size: 21px;
+    color: #99ffff;
+  }
